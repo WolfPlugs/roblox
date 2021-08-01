@@ -7,7 +7,7 @@ module.exports = class Roblox extends Plugin {
   startPlugin() {
     // Register the command
     powercord.api.commands.registerCommand({
-      name: "roblox",
+      command: "roblox",
       description: "Search for a roblox user",
       usage: "{c} <username>",
       execute: async (args, channel) => {
