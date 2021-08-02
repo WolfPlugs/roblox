@@ -33,7 +33,7 @@ module.exports = class Roblox extends Plugin {
                 type: "rich",
                 fields: [
                   {
-                    name: "STATS",
+                    name: "INFO:",
                     value: [
                       `Username: ${body.Username}`,
                       `ID: ${body.Id}`,
@@ -45,7 +45,7 @@ module.exports = class Roblox extends Plugin {
                 ],
                 image: {
                   url: `https://www.roblox.com/Thumbs/Avatar.ashx?x=250&y=250&Format=Png&username=${body.Username}`,
-                  with: 250,
+                  width: 250,
                   height: 250,
                 }
               },
