@@ -7,4 +7,4 @@ Just a simple plugin to get User Roblox information.
 
 ## Install
 
-Right [here](https://replugged.dev/install?url=WolfPlugs/
+Right [here](https://replugged.dev/install?url=WolfPlugs/roblox)
